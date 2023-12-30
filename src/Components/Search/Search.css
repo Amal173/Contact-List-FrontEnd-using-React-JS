@@ -1,0 +1,55 @@
+.search .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.search .container .row {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search .container .row .searchInput {
+  padding: 50px 0px;
+  width: 100%;
+}
+.search .container .row .searchInput input {
+  padding: 15px 20px;
+  border: 1px solid #000428;
+  border-radius: 25px;
+  background-color: #efefef;
+  width: 60%;
+  border: none;
+  position: relative;
+}
+.search .container .row .searchInput input::-moz-placeholder {
+  color: #000428;
+  font-size: 17px;
+  font-weight: 500;
+}
+.search .container .row .searchInput input::placeholder {
+  color: #000428;
+  font-size: 17px;
+  font-weight: 500;
+}
+.search .container .row .searchInput input:focus {
+  outline: none;
+}
+.search .container .row .searchInput .searchIcon {
+  position: absolute;
+  top: 133px;
+  left: 49%;
+}
+.search .container .row .addContactsBTN button {
+  width: 150px;
+  padding: 10px;
+  border-radius: 13px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.search .container .row .addContactsBTN button:hover {
+  background-color: #001540;
+  color: #ffffff;
+  transition: 0.3s;
+}

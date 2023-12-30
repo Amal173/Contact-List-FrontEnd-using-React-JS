@@ -1,0 +1,60 @@
+.updateContactsForm {
+  z-index: 2;
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  width: 40%;
+  padding: 30px 50px;
+  border-radius: 15px;
+  background-color: #00295d;
+}
+.updateContactsForm .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.updateContactsForm .title i {
+  font-size: 24px;
+}
+.updateContactsForm .contactImage {
+  display: flex;
+  justify-content: center;
+}
+.updateContactsForm .contactImage img {
+  width: 160px;
+  border-radius: 50%;
+}
+.updateContactsForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.updateContactsForm form .row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.updateContactsForm form .row .input {
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+}
+.updateContactsForm form .row .input input {
+  width: 45%;
+}
+.updateContactsForm form .row input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.updateContactsForm form .buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+.updateContactsForm form .buttons button {
+  padding: 7px 15px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}

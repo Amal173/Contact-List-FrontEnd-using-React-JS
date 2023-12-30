@@ -1,0 +1,63 @@
+.search {
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .row {
+            padding: 0px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .searchInput {
+                padding: 50px 0px;
+                width: 100%;
+
+                input {
+                    padding: 15px 20px;
+                    border: 1px solid #000428;
+                    border-radius: 25px;
+                    background-color: #efefef;
+                    width: 60%;
+                    border: none;
+                    position: relative;
+
+                    &::placeholder {
+                        color: #000428;
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+                .searchIcon {
+                    position: absolute;
+                    top: 133px;
+                    left: 49%;
+                }
+
+            }
+
+            .addContactsBTN {
+                button {
+                    width: 150px;
+                    padding: 10px;
+                    border-radius: 13px;
+                    border: none;
+                    font-size: 15px;
+                    font-weight: 600;
+                    transition: 0.3s;
+
+                    &:hover {
+                        background-color: #001540;
+                        color: #ffffff;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}

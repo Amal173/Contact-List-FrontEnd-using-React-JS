@@ -1,0 +1,32 @@
+.header {
+  background: linear-gradient(to right, #004e92, #000428);
+}
+.header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header .container header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container header .brandName h1 {
+  font-size: 34px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.header .container header button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header .container header button:hover {
+  background-color: #000f38;
+  color: #ffffff;
+  transition: 0.3s;
+}

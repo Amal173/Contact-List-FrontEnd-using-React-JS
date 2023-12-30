@@ -1,0 +1,42 @@
+.deleteWarningModal {
+  position: absolute;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 5px;
+  z-index: 2;
+  top: 25%;
+  width: 600px;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.deleteWarningModal .modalFirstRow {
+  display: flex;
+  justify-content: flex-end;
+}
+.deleteWarningModal .modalFirstRow .CloseCrossButn {
+  font-size: 24px;
+}
+.deleteWarningModal .warningContent {
+  display: flex;
+  justify-content: center;
+}
+.deleteWarningModal .warningContent span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.deleteWarningModal .modalButtons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.deleteWarningModal .modalButtons button {
+  padding: 20px 40px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #e62e00;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}

@@ -1,0 +1,55 @@
+.table {
+position: relative;
+min-height: 50.6vh;
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+
+        .tableBody {
+            table {
+                width: 100%;
+                background-color: #efefef;
+
+                .tableHead {
+
+                    background: linear-gradient(to right, #004586, #000c34);
+                }
+
+                tr {
+                    padding: 10px;
+                    text-align: start;
+                    display: grid;
+                    grid-template-columns: .5fr 1.5fr 1.5fr 1fr 1.5fr;
+                    border-bottom: 2px solid #ffffff;
+
+                    th {
+                        color: #ffffff;
+                        text-align: start;
+                    }
+
+                    td {
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        color: #002a5f;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 24px;
+                        .image{
+                            padding: 2px;
+                            border-radius: 5px;
+                            border: 2px solid #000c34;
+                            img {
+                                width: 50px;
+                                border-radius: 5px;
+                                display: block;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
